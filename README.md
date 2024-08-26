@@ -26,12 +26,6 @@ This project is a Python-based application that assesses the strength of passwor
 
 5. **Copy Password**: Hover over a suggested password to reveal the "Copy" button. Click the button to copy the password to the clipboard.
 
-## Error Handling
-
-- **Invalid Line Format**: When loading passwords from a file, ensure that the file lines are in the format encrypted_name:encrypted_password. The application will report invalid formats if they do not adhere to this structure.
-- **Decryption Errors**: Errors in decrypting passwords will be logged, and problematic lines will be skipped. Ensure that the encryption and decryption keys match and are correctly implemented.
-- **Empty Passwords**: The application handles empty password inputs gracefully, providing default suggestions or messages.
-
 ## Requirements
 
 - Python: Ensure Python 3.x is installed.
