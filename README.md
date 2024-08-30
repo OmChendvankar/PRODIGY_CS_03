@@ -16,7 +16,7 @@ This project is a Python-based application that assesses the strength of passwor
 
 1. **Run the Application**: Execute the script using Python. Ensure that you have `PySide6` installed.
    ```bash
-   python your_script_name.py
+   python Password_Checker.py
    ```
 2. **Check Password Strength**: Enter a password into the input field. The application will display feedback on the strength of the password.
 
